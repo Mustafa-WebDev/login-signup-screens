@@ -1,0 +1,36 @@
+.sub-div{
+    background-color: aqua;
+    border-radius: 50px;
+    height: 100%; 
+    width: 100%;
+    padding:20px 40px;
+    display: flex;
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .responsive{
+        width: 100% !important;
+
+    }
+    .inp-si{
+        font-size: medium !important;
+    }
+
+}
+
+.inp-si{
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid rgb(165, 165, 255);
+}
+
+.inp-si:focus{
+    border: 2px solid rgb(165, 165, 255);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 255);
+}
